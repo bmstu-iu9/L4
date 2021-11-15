@@ -1,6 +1,24 @@
 Типы данных языка Python
 ========================
 
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async="true"
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+<div id="toc"></div>
+<script src="toc.js"></script>
+<script>
+makeTOC.localizedHeader = "Содержание"
+makeTOC.localizedShow = "Показать";
+makeTOC.localizedHide = "Скрыть";
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+
 Данные в языке Python делятся на две группы: простые (обозначают единственное
 значение) и составные (хранят в себе несколько значений). Рассмотрим основные
 типы данных языка Python.
