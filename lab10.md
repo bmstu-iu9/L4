@@ -13,6 +13,10 @@
     1
     >>> count_words('!@#$%^&*()')
     0
+    >>> count_words('a,b,c,d,e,f')
+    6
+    >>> count_words('a b c d e f')
+    6
 
 ## Задача 2. `extract_words(text)`, 4 балла
 
@@ -29,3 +33,7 @@
     ['однослово']
     >>> extract_words('!@#$%^&*()')
     []
+    >>> extract_words('a,b,c,d,e,f')
+    ['a', 'b', 'c', 'd', 'e', 'f']
+    >>> extract_words('a b c d e f')
+    ['a', 'b', 'c', 'd', 'e', 'f']
