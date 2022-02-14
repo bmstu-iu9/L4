@@ -4,12 +4,12 @@
 1. `f1(xs)`
 -----------
 Написать функцию `f1(xs)`, которая принимает список строк и сортирует
-строки по алфавиту в обратном порядке
+строки по алфавиту, читая каждую строку в обратном порядке.
 
 ```python
 >>> fox = ['quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
 >>> f1(fox)
-['dog', 'the', 'quick', 'brown', 'over', 'jumps', 'fox', 'lazy']
+['the', 'dog', quick', 'brown', 'over', 'jumps', 'fox', 'lazy']
 
 >>> fox2 = ['quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dogs']
 >>> f1(fox2)
