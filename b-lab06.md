@@ -42,19 +42,26 @@ C:\Users\Mazdaywik>python example.py one two three
     * Если работаете на университетском компьютере, перейдите в папку `D:\TEMP`:
       ```
       C:\Users\User>D:
+
       D:\>cd D:\TEMP
+
       D:\TEMP>
       ```
     * Если работаете на личном ноутбуке, перейдите в папку рабочего стола `Desktop`.
       На Windows:
       ```
       C:\Users\‹ваше имя›>cd Desktop
-      C:\Users\Desktop>
+      C:\Users\‹ваше имя›\Desktop>
       ```
-      На macOS:
+      На Linux (оболочка Bash):
       ```
       [‹ваше имя›@‹имя компьютера›:~]$ cd Desktop
       [‹ваше имя›@‹имя компьютера›:~/Desktop]$
+      ```
+      На macOS (оболочка Zsh):
+      ```
+      ‹ваше имя›@‹имя компьютера›:~ % cd Desktop
+      ‹ваше имя›@‹имя компьютера›:~/Desktop %
       ```
       Файлы, значки которых отображаются на рабочем столе, на самом деле лежат
       в папке `Desktop`. И наоборот, если создать файл в папке `Desktop`, то его
@@ -96,6 +103,7 @@ C:\Users\Mazdaywik>python example.py one two three
     D:\TEMP\lab6>python show_file.py example.txt
     …
     D:\TEMP\lab6>python show_file.py show_file.py
+    …
     ```
     (На macOS вместо `python` следует использовать `python3`.)
 11. Скопируйте файл `show_file.py` в `num_file.py`.
@@ -111,6 +119,15 @@ C:\Users\Mazdaywik>python example.py one two three
     D:\TEMP\lab6>python num_file.py show_file.py
     …
     D:\TEMP\lab6>python num_file.py num_file.py
+    …
     ```
-14. Поднимитесь в папку, родительскую для папки `lab6`.
+14. Поднимитесь в папку, родительскую для папки `lab6`:
+    ```
+    D:\TEMP\lab6>cd ..
+
+    D:\TEMP>
+    ```
+    Если выводится сообщение «Процесс не может получить доступ к файлу, так как
+    этот файл занят другим процессом», значит, нужно закрыть открытые окна
+    Python и блокнота с файлами, находящимися в этой папке.
 15. Переименуйте папку `lab6` в папку `‹ваши имя и фамилия›`.
