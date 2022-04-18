@@ -112,3 +112,5 @@ C:\Users\Mazdaywik>python example.py one two three
     …
     D:\TEMP\lab6>python num_file.py num_file.py
     ```
+14. Поднимитесь в папку, родительскую для папки `lab6`.
+15. Переименуйте папку `lab6` в папку `‹ваши имя и фамилия›`.
