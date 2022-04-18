@@ -100,8 +100,8 @@ C:\Users\Mazdaywik>python example.py one two three
     (На macOS вместо `python` следует использовать `python3`.)
 11. Скопируйте файл `show_file.py` в `num_file.py`.
 12. Откройте файл `num_file.py` в среде IDLE (File → Open…), добавьте в программу
-    нумерацию строк (см. [Лабораторную работу № 3](b-lab03.md), функцию
-    `num_lines(filename)`).
+    нумерацию строк (см. [Лабораторную работу № 2](b-lab02.md), функцию
+    `view_enumerated(filename)`).
 13. Выполните следующие команды:
     ```
     D:\TEMP\lab6>python num_file.py
